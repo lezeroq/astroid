@@ -6,6 +6,7 @@ What's New in astroid 2.6.0?
 ============================
 Release Date: TBA
 
+* Astroid now support python 3.10.
 
 What's New in astroid 2.5.4?
 ============================
