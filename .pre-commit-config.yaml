@@ -43,6 +43,12 @@ repos:
     hooks:
       - id: prettier
         args: [--prose-wrap=always, --print-width=88]
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.0
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-bugbear]
+        exclude: tests/testdata|doc/conf.py|astroid/__init__.py|setup.py
   - repo: local
     hooks:
       - id: pylint
